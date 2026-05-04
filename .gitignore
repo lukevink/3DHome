@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/*
+!dist/
+!dist/.gitkeep
+!dist/3dhome.js
+
+# Home Assistant/runtime files
+*.db
+*.db-*
+.storage/
+home-assistant.log*
+
+# Local tooling
+.DS_Store
+.env
+.env.*
+coverage/
+.vite/
+__pycache__/
+*.py[cod]
