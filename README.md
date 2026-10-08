@@ -1,6 +1,6 @@
 # 3DHome
 
-`3DHome` is the main repo for the full Sweet Home 3D to Home Assistant floorplan workflow.
+`3DHome` is the main repo for the full Sweet Home 3D to Home Assistant floorplan workflow that allows you to bring a 3D model of your home from Sweet home 3D into a webgl, threejs interactive model in your dashboard that animates and changes based on your home entities.
 
 This system has three parts:
 
