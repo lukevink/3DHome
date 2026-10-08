@@ -244,7 +244,7 @@ cd /Users/LVink01/CODE/LAJV/sweethome3d-glb-exporter
 
 ## HACS
 
-This project is intentionally split to match how users actually install it:
+This project is intentionally split to allow the 3D model to work correctly in home assistant:
 
 - `3DHome`: Lovelace dashboard card
 - `3DHome-integration`: Home Assistant integration
