@@ -8,11 +8,10 @@ This system has three parts:
 - `3DHome-integration`: the Home Assistant integration that provides `number.3d_home_view`
 - `sweethome3d-glb-exporter`: the Sweet Home 3D exporter plugin that writes GLB or split glTF with naming and metadata for Home Assistant
 
-If you want users to install this with the least friction, this is the repo they should land on first.
 
 ## Golden Path
 
-Use this setup if you want the model to work with very little manual configuration:
+Use this setup if you want the 3D model to work with very little manual configuration:
 
 1. In Sweet Home 3D, give each light the Home Assistant object id you want it to control.
    Example: `kitchen_table`
