@@ -29,9 +29,9 @@ If you follow that convention, lights can work without any manual per-light mapp
 
 ## Repos
 
-- Main repo: [3DHome](/Users/LVink01/CODE/LAJV/3DHome)
-- Integration repo: [3DHome-integration](/Users/LVink01/CODE/LAJV/3DHome-integration)
-- Exporter repo: [sweethome3d-glb-exporter](/Users/LVink01/CODE/LAJV/sweethome3d-glb-exporter)
+- Main repo: [3DHome](https://github.com/lukevink/3DHome)
+- Integration repo: [3DHome-integration](https://github.com/lukevink/3DHome-integration)
+- Exporter repo: [sweethome3d-glb-exporter](https://github.com/lukevink/sweethome3d-glb-exporter)
 
 ## What 3DHome Provides
 
