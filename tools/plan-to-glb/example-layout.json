@@ -1,0 +1,44 @@
+{
+  "name": "Example House",
+  "units": "ft",
+  "wall_height_m": 0.9,
+  "wall_thickness_m": 0.12,
+  "floor_gap_m": 3,
+  "floors": [
+    {
+      "name": "Ground",
+      "rooms": [
+        { "name": "Kitchen", "rect": [0, 0, 14, 12] },
+        { "name": "Living Room", "rect": [14, 0, 32, 16], "entity": "light.living_room" },
+        { "name": "Hall", "rect": [0, 12, 14, 18] },
+        { "name": "Garage", "rect": [0, 18, 14, 38] },
+        { "name": "Dining Room", "rect": [14, 16, 32, 28] }
+      ],
+      "ground": [
+        { "name": "Back Lawn", "rect": [0, -10, 32, 0], "material": "grass" },
+        { "name": "Driveway", "rect": [0, 38, 14, 52], "material": "paving" },
+        { "name": "Porch", "rect": [16, 28, 30, 34], "material": "paving" }
+      ],
+      "lights": [
+        { "name": "kitchen", "rect": [0.5, 0.5, 13.5, 11.5], "entity": "light.kitchen", "kind": "zone" },
+        { "name": "living_room_lamp", "rect": [29, 2, 31, 4], "entity": "light.living_room_lamp", "kind": "fixture" },
+        { "name": "porch", "rect": [16.5, 28.5, 29.5, 33.5], "entity": "switch.porch_light", "kind": "zone" },
+        { "name": "garden", "rect": [0.5, -9.5, 31.5, -0.5], "entity": "light.garden", "kind": "zone" }
+      ]
+    },
+    {
+      "name": "Upstairs",
+      "rooms": [
+        { "name": "Main Bedroom", "rect": [0, 0, 18, 16], "entity": "light.main_bedroom" },
+        { "name": "Bathroom", "rect": [18, 0, 32, 10] },
+        { "name": "Landing", "rect": [18, 10, 32, 16] },
+        { "name": "Bedroom 2", "rect": [0, 16, 16, 28] },
+        { "name": "Office", "rect": [16, 16, 32, 28] }
+      ],
+      "lights": [
+        { "name": "main_bedroom", "rect": [0.5, 0.5, 17.5, 15.5], "entity": "light.main_bedroom", "kind": "zone" },
+        { "name": "ceilinglight_office", "rect": [23, 21, 25, 23], "entity": "light.office", "kind": "fixture", "ceiling": true }
+      ]
+    }
+  ]
+}

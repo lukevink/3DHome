@@ -27,6 +27,10 @@ Use this setup if you want the 3D model to work with very little manual configur
 
 If you follow that convention, lights can work without any manual per-light mapping in the card.
 
+## No Sweet Home 3D model? Start from a 2D plan
+
+If you only have a 2D floor plan, [`tools/plan-to-glb`](tools/plan-to-glb) builds a simple 3DHome-ready GLB from rectangles traced off the plan. It makes rooms, low walls, outdoor areas and light zones that bind to Home Assistant entities through `haEntity` extras. It needs plain Python 3 and nothing else.
+
 ## Repos
 
 - Main repo: [3DHome](https://github.com/lukevink/3DHome)
